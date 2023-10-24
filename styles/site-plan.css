@@ -4,6 +4,9 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Gloria+Hallelujah&family=Pixelify+Sans&display=swap');
 /*p @import url('https://fonts.googleapis.com/css2?family=Delius&family=Gloria+Hallelujah&family=Pixelify+Sans&display=swap'); */
 
+.primary, .accent2  {
+  color: #dde6ed;
+}
 
 :root {
   /* change the values below to your colors from your palette */
@@ -22,7 +25,7 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #1b262c; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #dde6ed; /* paragraph text on a colored background */ 
   --paragraph-background-color: #0f4c75  ;
-  --nav-link-color: #0f4c75;
+  --nav-link-color: #dde6ed;
   --nav-background-color: #0f4c75;
   --nav-hover-link-color: #dde6ed;
   --nav-hover-background-color: #1b262c;
