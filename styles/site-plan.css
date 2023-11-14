@@ -31,6 +31,10 @@ Fonts are separated by a | */
   --nav-hover-background-color: #1b262c;
 }
 
+.wireframe, #logo {
+  max-width: 500px;
+}
+
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
