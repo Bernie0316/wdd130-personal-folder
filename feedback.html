@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback Page</title>
-    <!--<link rel="stylesheet" href="styles/style.css">-->
+    <link rel="stylesheet" href="styles/style.css">
     <style>
         form {
             margin: 0 auto;
-            width: 400px;
+            width: 700px;
             padding: 1em;
             border: 1px solid #ccc;
         }
@@ -27,7 +27,8 @@
         }
         input, textarea {
             font: 1em sans-serif;
-            width: 300px;
+            width: 500px;
+            margin-right: 1px;
             box-sizing: border-box;
             border: 1px solid #999;
         }
@@ -42,8 +43,8 @@
             margin-left: 0.5em;
         }
         #feedback {
-            background-color: antiquewhite;
-            top: 0;
+            background-color: #0f4c75;
+            margin-top: 50px;
             left: 0;
             right: 0;
             padding: .5em;
@@ -51,19 +52,22 @@
         .moveDown {
             margin-top: 3em;
         }
+        label {
+            color: #dde6ed;
+        }
     </style>
 </head>
 <body>
     <div id="content">
         <header>
             <a href="index.html" id="logo-link">
-                <img class="logo" src="images/Berniecode-logos/Berniecode-logos_black.png" alt="Bernie's web">
+                <img class="logo" src="images/Berniecode-logos/Berniecode-logos_white.png" alt="Bernie's web">
             </a>
             <nav>
                 <a href="index.html">Home Page</a>
                 <a href="project.html">Project</a>
                 <a href="site-plan.html">Site Plan</a>
-                <a href="contactme.html">Contact Me</a>
+                <a href="contactme.html">Feedback Me</a>
             </nav>
         </header>
         <main>
@@ -81,7 +85,7 @@
                             <input type="email" id="email" name="user_email">
                         </li>
                         <li>
-                            <label for="msg">Message:</label>
+                            <label for="msg">Sth:</label>
                             <textarea id="msg" name="user_message"></textarea>
                         </li>
                         <li class="button">
@@ -94,7 +98,7 @@
         <footer>
             <p>Berniecode &copy; 2023 - Bernie Zhong</p>
             <p><a href="site-plan.html">Site Plan</a></p>
-            <p><a href="contactme.html">Contact Me</a></p>
+            <p><a href="feedback.html">Feedback Me</a></p>
             <div class="social">
                 <a href="https://www.facebook.com/profile.php?id=100028553119174" target="_blank"> 
                     <img src="images/facebook.png" alt="fb icon">
