@@ -140,6 +140,14 @@ main section img {
     margin-top: 50px;
     border-radius: 5px;
 }
+#page-intro {
+    grid-column: 1/11;
+    text-align: center;
+    margin-top: -300px;
+}
+#page-intro h4{
+    font-size: 1.3em;
+}
 /* main */
 .home-grid {
     display: grid;
