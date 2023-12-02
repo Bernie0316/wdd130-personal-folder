@@ -28,7 +28,7 @@ h2 {
     border: none; /* hide the border */
     padding: 35px;
     outline: none;
-    color: #dde6ed;
+    color: white;
     font-size: inherit;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
@@ -49,7 +49,7 @@ h2 {
 /* Links inside the dropdown */
 .dropdown-content a {
     float: none;
-    color: #dde6ed;
+    color: white;
     padding: 35px;
     text-decoration: none;
     display: block;
@@ -68,7 +68,8 @@ body {
     font-size: 30px;
     margin: 0;
     padding: 0;
-    background-color: #1b262c;
+    color: white;
+    background-color: rgb(13, 13, 15);
     font-family: "Saira", "Saira Semi Condensed", "Saira Extra Condensed", sans-serif;
 }
 header {
@@ -92,11 +93,11 @@ nav a {
     text-align: center;
     text-decoration: none; 
     padding: 35px;
-    color: #dde6ed;
+    color: white;
 }
 nav a:hover {
     background-color: #1b262c;
-    color: #dde6ed;
+    color: white;
 }
 #myweb {
     display: grid;
@@ -109,7 +110,7 @@ nav a:hover {
     z-index: -1; /* 把順序往後 */
 }
 .home-title, h4 {
-    color: #dde6ed;
+    color: white;
 }
 .home-title {
     font-family: "Gloria Hallelujah", 'Delius', sans-serif;
@@ -133,7 +134,7 @@ main section img {
 .feedback, .join {
     text-decoration: none;
     background-color: #0f4c75;
-    color: #dde6ed;
+    color: white;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -182,7 +183,7 @@ main section img {
     background-color: #0f4c75;
 }
 .home-grid h2 {
-    color: #dde6ed;
+    color: white;
     
 }
 .Mypic { 
@@ -193,7 +194,7 @@ main section img {
 }
 .msg {
     background-color:  #1b262c;
-    color:#dde6ed;
+    color:white;
     line-height: 1.5em;
     padding: 35px;
     margin-top: 200px; 
@@ -209,7 +210,7 @@ main section img {
 /* footer */
 footer {
     background-color: rgba(15, 76, 117, .7);
-    color: #dde6ed;
+    color: white;
     padding: 25px 50px;
     padding-top: 15px;
     margin-top: 200px;
@@ -220,12 +221,12 @@ footer {
 footer a {
     font-size: 1.2em;
     text-decoration: none;
-    color: #dde6ed;
+    color: white;
 }
 footer a:hover {
     text-decoration: underline;
     background-color: #1b262c;
-    color: #dde6ed; 
+    color: white; 
 }
 .social img {
     padding-top: 15px;
