@@ -144,6 +144,8 @@ main section img {
     grid-column: 1/11;
     text-align: center;
     margin-top: -300px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 #page-intro h4{
     font-size: 1.3em;
